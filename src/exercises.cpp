@@ -25,12 +25,22 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   
-  // TODO: YOUR CODE HERE
 }
 
 void exercise_3(int a, int b) {
 
-  
+  float n1; 
+
+  float n2; 
+
+  int result = n1 / n2;
+
+  if (n2==0){
+    cout>>"Imposible"; 
+  } else {
+    cout<<result; 
+  }
+
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
