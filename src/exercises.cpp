@@ -66,7 +66,37 @@ return ASCII;
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
+
+  if (0 < number && number <=7 ) {
+    
+    switch (number) {
+
+      case 1:
+        cout<<"lunes"<<endl; 
+        break;
+      case 2:
+        cout<<"Martes"<<endl; 
+        break;
+      case 3:
+        cout<<"Miercoles"<<endl; 
+        break;
+      case 4:
+        cout<<"Jueves"<<endl; 
+        break;
+      case 5:
+        cout<<"Viernes"<<endl; 
+        break;
+      case 6:
+        cout<<"Sabado"<<endl; 
+        break;
+      case 7:
+        cout<<"Domingo"<<endl; 
+        break;   
+    }
+  } else {
+    cout<<"Invalid input"<<endl;
+  }
+
 }
 
 void exercise_7(double r) {
