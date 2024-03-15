@@ -4,6 +4,7 @@
 
 using namespace std;
 
+
 void exercise_1(string s1, string s2, string s3) {
   
   if (s2 > s1 && s1 < s3){
@@ -12,20 +13,22 @@ void exercise_1(string s1, string s2, string s3) {
     result = s2;
   } else {
     result = s3;
-  }
-  
+  } 
+   
   cout<<result; 
-
+ 
 }
 
 
 
 void exercise_2(double A, double B, double C) {
+  
   // TODO: YOUR CODE HERE
 }
 
 void exercise_3(int a, int b) {
-  // TODO: YOUR CODE HERE
+
+  
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
