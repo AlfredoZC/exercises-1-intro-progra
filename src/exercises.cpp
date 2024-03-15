@@ -105,7 +105,7 @@ double result;
 float pi = 3.14;
 int direction = 4;
 
-if (r > 0 ){
+if (r >= 0 ){
 
   result = direction*pi*r*r; 
 
