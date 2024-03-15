@@ -46,8 +46,23 @@ void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
 }
 
-void exercise_5(char character) {
-  // TODO: YOUR CODE HERE
+int exercise_5(char character) {
+
+  int ASCII = (int) character;
+
+  if (65 <= ASCII && ASCII <96 ){
+    cout <<"upper-case alphabet"<<endl;
+
+  } else if (97 <= ASCII && <= 122){
+    cout<<"lower-case alphabet"<<endl;
+
+  } else if (32 <=ASCII && ASCII <=64 ){
+    cout <<"not an alphabet"<<endl;
+    
+  }
+
+return ASCII;
+
 }
 
 void exercise_6(int number) {
