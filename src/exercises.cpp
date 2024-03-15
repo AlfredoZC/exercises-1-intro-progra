@@ -27,21 +27,18 @@ void exercise_2(double A, double B, double C) {
 
 int exercise_3(int a, int b) {
 
-  float n1; 
+  int result = 0; 
+  
+  if (b != 0) {
+    result = a / b; 
+    cout <<result<<endl;
 
-  float n2; 
+  } else if (b == 0 ){
 
-  int result = n1 / n2;
-
-  if (n2==0){
-
-    cout<<"Imposible"; 
-
-  } else {
-
-    cout<<result; 
+    cout <<"Imposible"<<endl;
   }
 
+return result;
 
 }
 
