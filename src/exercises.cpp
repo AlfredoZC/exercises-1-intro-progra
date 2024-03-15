@@ -35,7 +35,7 @@ int exercise_3(int a, int b) {
 
   if (n2==0){
 
-    cout>>"Imposible"; 
+    cout<<"Imposible"; 
 
   } else {
 
