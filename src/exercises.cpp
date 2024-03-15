@@ -6,13 +6,12 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3); 
   
-  int main () {
-
+//
   cout<< exercise_1( "milk", "milkshake", "month" ): 
    
    )
 
-  return 0;
+//
   
 }
 
