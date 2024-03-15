@@ -99,8 +99,21 @@ void exercise_6(int number) {
 
 }
 
-void exercise_7(double r) {
-  // TODO: YOUR CODE HERE
+double exercise_7(double r) {
+
+double result; 
+float pi = 3.14;
+int direction = 4;
+
+if (r > 0 ){
+
+  result = direction*pi*r*r; 
+
+  cout << result <<endl; 
+} else {
+  cout <<" Error: Radius cannot be negative."<<exercise_5ndl;
+}
+return result;
 }
 
 void exercise_8(long int seconds) {
