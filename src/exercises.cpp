@@ -111,7 +111,7 @@ if (r >= 0 ){
 
   cout << result <<endl; 
 } else {
-  cout <<"Radius cannot be negative."<<endl; 
+  cout <<"Error: Radius cannot be negative."<<endl; 
 }
 return result;
 }
