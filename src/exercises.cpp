@@ -21,13 +21,11 @@ void exercise_1(string s1, string s2, string s3) {
  
 }
 
-
-
 void exercise_2(double A, double B, double C) {
   
 }
 
-void exercise_3(int a, int b) {
+int exercise_3(int a, int b) {
 
   float n1; 
 
@@ -36,10 +34,14 @@ void exercise_3(int a, int b) {
   int result = n1 / n2;
 
   if (n2==0){
+
     cout>>"Imposible"; 
+
   } else {
+
     cout<<result; 
   }
+
 
 }
 
