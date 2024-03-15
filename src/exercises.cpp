@@ -53,7 +53,7 @@ int exercise_5(char character) {
   if (65 <= ASCII && ASCII <96 ){
     cout <<"upper-case alphabet"<<endl;
 
-  } else if (97 <= ASCII && <= 122){
+  } else if (97 <= ASCII && ASCII <= 122){
     cout<<"lower-case alphabet"<<endl;
 
   } else if (32 <=ASCII && ASCII <=64 ){
