@@ -81,7 +81,7 @@ void exercise_6(int number) {
         cout<<"Wednesday"<<endl; 
         break;
       case 4:
-        cout<<"Thrusday"<<endl; 
+        cout<<"Thursday"<<endl; 
         break;
       case 5:
         cout<<"Friday"<<endl; 
