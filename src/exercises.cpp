@@ -4,10 +4,35 @@
 
 using namespace std;
 
-void exercise_1(string s1, string s2, string s3) {
-  // TODO: YOUR CODE HERE
+void exercise_1(string s1, string s2, string s3); 
+  
+  int main () {
+
+  cout<< exercise_1( "milk", "milkshake", "month" ): 
+   
+   )
+
+  return 0;
   
 }
+
+void exercise_1(string s1, string s2, string s3) {
+
+  string result; 
+
+  if (s2 > s1 && s1 < s3){
+    result = s1;
+  } else if (s1 > s2 && s2 < s3){
+    result = s2;
+  } else {
+    result = s3;
+  }
+  
+  cout<<result; 
+
+  }
+
+
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
