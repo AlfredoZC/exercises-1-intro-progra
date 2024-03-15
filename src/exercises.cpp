@@ -6,7 +6,9 @@ using namespace std;
 
 
 void exercise_1(string s1, string s2, string s3) {
-  
+
+   string result; 
+
   if (s2 > s1 && s1 < s3){
     result = s1;
   } else if (s1 > s2 && s2 < s3){
