@@ -68,29 +68,29 @@ return ASCII;
 void exercise_6(int number) {
 
   if (0 < number && number <=7 ) {
-    
+
     switch (number) {
 
       case 1:
-        cout<<"lunes"<<endl; 
+        cout<<"Monday"<<endl; 
         break;
       case 2:
-        cout<<"Martes"<<endl; 
+        cout<<"Tuesday"<<endl; 
         break;
       case 3:
-        cout<<"Miercoles"<<endl; 
+        cout<<"Wednesday"<<endl; 
         break;
       case 4:
-        cout<<"Jueves"<<endl; 
+        cout<<"Thrusday"<<endl; 
         break;
       case 5:
-        cout<<"Viernes"<<endl; 
+        cout<<"Friday"<<endl; 
         break;
       case 6:
-        cout<<"Sabado"<<endl; 
+        cout<<"Saturday"<<endl; 
         break;
       case 7:
-        cout<<"Domingo"<<endl; 
+        cout<<"Sunday"<<endl; 
         break;   
     }
   } else {
