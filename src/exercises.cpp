@@ -154,7 +154,7 @@ void exercise_8(long int seconds) {
 }
 }
 
-void exercise_9(string s1, string s2, string s3, string s4, string s5) {
+string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   
   char c1  = s1 [0];
   char c2  = s2 [0];
