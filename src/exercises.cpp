@@ -291,5 +291,40 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+
+  if (debut < 0 || debut > 24 || fin < 0 || fin > 24) {
+    cout << "Las horas deben estar entre 0 y 24!" << endl;
+  } else if (fin > debut) {
+    int result = 0;
+    int contador1 = 0;
+    int contador2 = 0;
+    int i = debut;
+    while (i < fin) {
+      if (i >= 7 && i < 17) {
+        result = result + 2;
+        contador2 = contador2 + 1;
+      } else if (i < 7 || i >= 17) {
+        result = result + 1;
+        contador1 = contador1 + 1;
+      }
+      ++i;
+    }
+
+    cout << "Haz alquilado una bicicleta por" << endl;
+    if (contador2 == 0) {
+      cout << contador1 << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+    } else if (contador1 == 0) {
+      cout << contador2 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+    } else {
+      cout << contador1 << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+      cout << contador << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+    }
+    cout << "El monto total a pagar es de " << result << " boliviano(s)." << endl;
+
+  } else if (fin == debu) {
+    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+  } else if (fin < debut) {
+    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+  }
+  //being honest i didn't do this exercise I needed help from a classmate...
 }
