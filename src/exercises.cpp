@@ -206,11 +206,38 @@ string exercise_11(int number) {
 }
 
 void exercise_12(string color1, int numb1,
-                 string color2, int numb2,
                  string color3, int numb3,
-                 string color4, int numb4) {
+                 string color3, int numb3,
+                 string color_persona, int num_persona) {
+if (num_persona == -1 ){
+  if (color_persona == color1 && color_persona == color2){
+    cout << numb2 <<enld;
+    cout << numb1 <<enld;
+  } else if (color_persona == color1 && color_persona == color3){
+    cout << numb3 <<endl;
+    cout << numb1 <<endl;
+  }else if (color_persona == color2 && color_persona == color3){
+    cout<< numb3 <<endl;
+    cout<< numb2 <<endl;
+  }
+  
+}else if (num_persona == numb1 && num_persona ==numb2 && num_persona == numb3 && color_persona == color1
+&& num_persona == numb1 && color_persona == color2 && num_persona == numb2 && color_persona == color3 &&
+num_persona = numb3){
+  cout<< "1\n" << "2\n" << "3\n";
 
-  // TODO: YOUR CODE HERE
+} else if (num_persona == numb1 || num_persona == numb2 || num_persona == numb3 ) { 
+  if (color_persona == color1 && num_persona == numb1){
+  cout<< numb1 <<endl;
+
+}else if (color_persona == color2 && num_persona == numb2){
+  cout<< numb2 <<endl;
+}else if (color_persona ==color3 && num_persona == numb3){
+  cout << numb3 <<enld;
+}
+
+}
+  
 }
 
 string exercise_13(int age, int years_of_experience) {
