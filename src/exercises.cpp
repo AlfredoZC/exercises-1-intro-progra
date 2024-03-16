@@ -163,12 +163,13 @@ void exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char c5  = s5 [0];
 
 
-  cout<<c1<<c2<<c3<<c4<<c5<<endl;
+  cout<<c1<<c2<<c3<<c4<<c5<<"\n";
 
   if (c1 == c5){
-   cout <<"Hemos encontrado algo!"<<endl;
+   return "Hemos encontrado algo!";
+
   } else {
-    cout<<"Aun sin suerte"<<endl;
+   return "Aun sin suerte";
   }
 
 }
