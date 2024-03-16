@@ -146,7 +146,7 @@ void exercise_8(long int seconds) {
       if (seconds == 0 || seconds > 0)  {
     long int horas = seconds /3600;
     long int minutos = (seconds %  3600 ) / 60; 
-    long int segundos = seconds % 601;
+    long int segundos = (seconds % 3600) % 60;
     
     cout<<setw(2)<<setfill('0') << horas <<":"<<setw(2)<<setfill('0') << minutos <<":"<<setw(2)<<setfill('0')<<segundos<<endl;
 } else {
