@@ -214,7 +214,7 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-  if (age > 18 ) {
+  if (age >= 18 ) {
         if (years_of_experience < 3 ) {
             return "coordinador de proyecto";
         } else if (3 <= years_of_experience && years_of_experience < 5){
@@ -223,7 +223,7 @@ string exercise_13(int age, int years_of_experience) {
             return "director senior";
         }
     } else {
-        return "Not elegible";
+        return "Not eligible";
     }
 }
 
