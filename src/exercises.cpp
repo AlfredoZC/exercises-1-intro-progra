@@ -144,8 +144,15 @@ void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
 }
 
-string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
+void exercise_9(string s1, string s2, string s3, string s4, string s5) {
+  
+  char r_s1 = s1 [0];
+  char r_s5 = s5 [0];
+  if (r_s1 == r_s5){
+    cout <<"Hemos encontrado algo!"<<endl;
+  } else if (r_s1 != r_s5){
+    cout<<"Aun sin suerte"<<endl;
+  }
   return "";
 }
 
