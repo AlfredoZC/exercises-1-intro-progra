@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include  <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -142,7 +143,15 @@ return result;
 }
 
 void exercise_8(long int seconds) {
-  // TODO: YOUR CODE HERE
+      if (seconds == 0 || seconds > 0)  {
+    long int horas = seconds /3600;
+    long int minutos = (seconds %  3600 ) / 60; 
+    long int segundos = seconds % 601;
+    
+    cout<<setw(2)<<setfill('0') << horas <<":"<<setw(2)<<setfill('0') << minutos <<":"<<setw(2)<<setfill('0')<<segundos<<endl;
+} else {
+    cout<<"Error: Input seconds cannot be negative." <<endl;
+}
 }
 
 void exercise_9(string s1, string s2, string s3, string s4, string s5) {
@@ -174,7 +183,7 @@ int exercise_10(int n1, int n2) {
     return nom_variable; 
 
   } else {
-    
+
     int sum = n1 + n2;
     string str_num= to_string(sum);
     int amount_of_chars = str_num.size();
@@ -195,6 +204,7 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
+
   // TODO: YOUR CODE HERE
 }
 
