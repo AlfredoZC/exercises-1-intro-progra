@@ -206,7 +206,7 @@ string exercise_11(int number) {
 }
 
 void exercise_12(string color1, int numb1,
-                 string color3, int numb3,
+                 string color2, int numb2,
                  string color3, int numb3,
                  string color_persona, int num_persona) {
 if (num_persona == -1 ){
