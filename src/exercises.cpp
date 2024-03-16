@@ -196,18 +196,14 @@ int exercise_10(int n1, int n2) {
 
 
 void exercise_11(int number) {
-  
-void fibo ( int n1) {
-    long int Fibos_collar = 11235813;
-    
-    if (n1 != Fibos_collar){
-        cout<<"Esto no es de Fibonacci"<<endl;
-        
-    }else {
-        cout<<"Se encontro Fibonacci"<<endl;
-    }
 
-}
+  if (number == 11235813){
+    cout <<"Se encontro Fibonacci"<<endl;
+  }else {
+    cout <<"Esto no es de Fibonacci"<<endl;
+  }
+
+  return 0;
 }
 
 void exercise_12(string color1, int numb1,
