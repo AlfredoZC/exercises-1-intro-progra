@@ -147,17 +147,20 @@ void exercise_8(long int seconds) {
 void exercise_9(string s1, string s2, string s3, string s4, string s5) {
   
   char r_s1 = s1 [0];
-  char r_s2 = s2 [0];
-  char r_s3 = s3 [0];
-  char r_s4 = s4 [0];
+  
   char r_s5 = s5 [0];
 
+  s1  = s1 [0];
+  s2  = s2 [0];
+  s3  = s3 [0];
+  s4  = s4 [0];
+  s5  = s5 [0];
+
   if (r_s1 == r_s5){
-      
-    cout<<r_s1<<r_s2<<r_s3<<r_s4<<r_s5<<endl;
+    cout<<s1<<s2<<s3<<s4<<s5<<endl;
    //cout <<"Hemos encontrado algo!"<<endl;
   } else {
-    cout<<r_s1<<r_s2<<r_s3<<r_s4<<r_s5 <<endl;
+    cout<<s1<<s2<<s3<<s4<<s5<<endl;
     //cout<<"Aun sin suerte"<<endl;
   }
 
