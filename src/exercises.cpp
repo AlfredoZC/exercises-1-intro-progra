@@ -156,12 +156,12 @@ void exercise_9(string s1, string s2, string s3, string s4, string s5) {
   s4  = s4 [0];
   s5  = s5 [0];
 
+  cout<<s1<<s2<<s3<<s4<<s5<<endl;
+
   if (r_s1 == r_s5){
-    cout<<s1<<s2<<s3<<s4<<s5<<endl;
-   //cout <<"Hemos encontrado algo!"<<endl;
+   cout <<"Hemos encontrado algo!"<<endl;
   } else {
-    cout<<s1<<s2<<s3<<s4<<s5<<endl;
-    //cout<<"Aun sin suerte"<<endl;
+    cout<<"Aun sin suerte"<<endl;
   }
 
 }
