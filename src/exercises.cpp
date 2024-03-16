@@ -27,7 +27,7 @@ void exercise_2(double A, double B, double C) {
 
   if (F_result  > 0 &&  A != 0 ){
   
-  double result_sqrt = sqrt(F_esult);
+  double result_sqrt = sqrt(F_result);
   double x1 = (-B + result_sqrt) / (2*A);
   double x2 = (-B - result_sqrt) / (2*A);
   cout << x1 << " "<<x2<<endl;
