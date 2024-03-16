@@ -177,14 +177,14 @@ int exercise_10(int n1, int n2) {
     int amount_of_chars = str_num.size();
     int result = amount_of_chars * sum;
 
-    cout <<result<<endl;
+    return resul; 
   } else {
     int non_negatives = 0;
 
     return non_negatives; 
   }
-return result;
 }
+
 
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
