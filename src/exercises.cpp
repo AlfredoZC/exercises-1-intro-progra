@@ -218,9 +218,9 @@ string exercise_13(int age, int years_of_experience) {
         if (years_of_experience < 3 ) {
             return "Project coordinator";
         } else if (3 <= years_of_experience && years_of_experience < 5){
-            return "Senior project manager";
-        } else {
             return "Project manager";
+        } else {
+            return "Senior project manager";
         }
     } else {
         return "Not eligible";
