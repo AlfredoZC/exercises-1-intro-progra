@@ -317,11 +317,11 @@ void exercise_16(int debut, int fin) {
       cout << contador2 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
     } else {
       cout << contador1 << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
-      cout << contador << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+      cout << contador2 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
     }
     cout << "El monto total a pagar es de " << result << " boliviano(s)." << endl;
 
-  } else if (fin == debu) {
+  } else if (fin == debut) {
     cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
   } else if (fin < debut) {
     cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
