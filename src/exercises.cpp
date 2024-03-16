@@ -202,7 +202,7 @@ string exercise_11(int number) {
     return "Se encontro a Fibonacci";
   } else {
 
-   return "Esto no es deibon Facci";
+   return "Esto no es de Fibonacci";
    }
 
 }
