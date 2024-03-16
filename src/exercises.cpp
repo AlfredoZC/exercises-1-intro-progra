@@ -155,10 +155,10 @@ void exercise_9(string s1, string s2, string s3, string s4, string s5) {
   if (r_s1 == r_s5){
       
     cout<<r_s1<<r_s2<<r_s3<<r_s4<<r_s5<<endl;
-    cout <<"Hemos encontrado algo!"<<endl;
+   //cout <<"Hemos encontrado algo!"<<endl;
   } else {
     cout<<r_s1<<r_s2<<r_s3<<r_s4<<r_s5 <<endl;
-    cout<<"Aun sin suerte"<<endl;
+    //cout<<"Aun sin suerte"<<endl;
   }
 
 }
