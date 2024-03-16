@@ -22,8 +22,32 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
+
+  double F_result =  B*B - 4 * A * C; 
+
+  if (F_result  > 0 &&  A != 0 ){
   
-}
+  double result_sqrt = sqrt(F_esult);
+  double x1 = (-B + result_sqrt) / (2*A);
+  double x2 = (-B - result_sqrt) / (2*A);
+  cout << x1 << "---"<<x2<<endl;
+
+  } else if (F_result ==0 &&  B != 0){
+    double result_sqrt = sqrt (F_result);
+    double x1 = (-B + result_sqrt) / (2 *A );
+    
+    cout<<x1<<endl;
+  } else if (A==0 && B!=0 ){
+    cout << (-1 * (C)) /B <<endl;
+
+  } else if (A != 0 &&  B ==0 ){
+    cout << sqrt (C/A)<< endl;
+  } else {
+    cout <<"";
+  }
+  }
+  
+
 
 int exercise_3(int a, int b) {
 
