@@ -177,7 +177,7 @@ int exercise_10(int n1, int n2) {
     int amount_of_chars = str_num.size();
     int result = amount_of_chars * sum;
 
-    return resul; 
+    return result; 
   } else {
     int non_negatives = 0;
 
