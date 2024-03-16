@@ -233,7 +233,7 @@ string screen = to_string(number_of_docs);
 
 if (number_of_docs > 0){
 
-  if (number_of docs == 1){
+  if (number_of_docs == 1){
   return "Se encontro un documento";
 
   } else if (number_of_docs > 1 ){
