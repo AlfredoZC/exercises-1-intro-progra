@@ -195,13 +195,15 @@ int exercise_10(int n1, int n2) {
 }
 
 
-void exercise_11(int number) {
+string exercise_11(int number) {
 
-  if (number == 11235813){
-    cout <<"Se encontro Fibonacci"<<endl;
-  }else {
-    cout <<"Esto no es de Fibonacci"<<endl;
-  }
+  if(number == 11235813){
+    
+    return "Se encontro a Fibonacci";
+  } else {
+
+   return "Esto no es deibon Facci ";
+   }
 
 }
 
