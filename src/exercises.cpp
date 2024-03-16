@@ -211,8 +211,8 @@ void exercise_12(string color1, int numb1,
                  string color_persona, int num_persona) {
 if (num_persona == -1 ){
   if (color_persona == color1 && color_persona == color2){
-    cout << numb2 <<enld;
-    cout << numb1 <<enld;
+    cout << numb2 <<endl;
+    cout << numb1 <<endl;
   } else if (color_persona == color1 && color_persona == color3){
     cout << numb3 <<endl;
     cout << numb1 <<endl;
