@@ -168,20 +168,20 @@ void exercise_9(string s1, string s2, string s3, string s4, string s5) {
 }
 
 int exercise_10(int n1, int n2) {
-  int result = 0; 
 
-  if (n1 > 0 && n2 > 0 ){
+  if (n1 < 0 ||  n2 < 0 ){
+    int nom_variable = 0;
+    return nom_variable; 
 
+  } else {
+    
     int sum = n1 + n2;
     string str_num= to_string(sum);
     int amount_of_chars = str_num.size();
-    int result = amount_of_chars * sum;
+    int result = amount_of_chars * sum; 
 
     return result; 
-  } else {
-    int non_negatives = 0;
 
-    return non_negatives; 
   }
 }
 
