@@ -221,9 +221,9 @@ if (num_persona == -1 ){
     cout<< numb2 <<endl;
   }
   
-}else if (num_persona == numb1 && num_persona ==numb2 && num_persona == numb3 && color_persona == color1
+}else if (num_persona == numb1 && num_persona == numb2 && num_persona == numb3 && color_persona == color1
 && num_persona == numb1 && color_persona == color2 && num_persona == numb2 && color_persona == color3 &&
-num_persona = numb3){
+num_persona == numb3){
   cout<< "1\n" << "2\n" << "3\n";
 
 } else if (num_persona == numb1 || num_persona == numb2 || num_persona == numb3 ) { 
@@ -233,7 +233,7 @@ num_persona = numb3){
 }else if (color_persona == color2 && num_persona == numb2){
   cout<< numb2 <<endl;
 }else if (color_persona ==color3 && num_persona == numb3){
-  cout << numb3 <<enld;
+  cout << numb3 <<endl;
 }
 
 }
