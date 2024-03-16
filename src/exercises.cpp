@@ -195,9 +195,19 @@ int exercise_10(int n1, int n2) {
 }
 
 
-string exercise_11(int number) {
-  // TODO: YOUR CODE HERE
-  return "";
+void exercise_11(int number) {
+  
+void fibo ( int n1) {
+    long int Fibos_collar = 11235813;
+    
+    if (n1 != Fibos_collar){
+        cout<<"Esto no es de Fibonacci"<<endl;
+        
+    }else {
+        cout<<"Se encontro Fibonacci"<<endl;
+    }
+
+}
 }
 
 void exercise_12(string color1, int numb1,
