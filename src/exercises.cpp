@@ -232,12 +232,13 @@ void exercise_15(int a, int b, int c) {
   cout << "Permutamos: a => b, b => c, c => a"<<endl;
     
     int var = a;
-    a = b;
-    b = c;
-    c = var;
+    int var2 = b;
+    a = c;
+    b = var;
+    c = var2;
     
   cout<<"Los valores despues de la permutacion son: "<<"a = "<<a<<" b = "<<b<<" c = "<<c<<endl;
-  
+
 }
 
 void exercise_16(int debut, int fin) {
