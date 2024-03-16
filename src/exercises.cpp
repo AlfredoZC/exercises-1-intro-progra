@@ -69,7 +69,21 @@ return result;
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-  // TODO: YOUR CODE HERE
+  double porcentaje;
+  double descuento;
+
+  if (n > a && n < b){
+    porcentaje = x/100 * n;
+    descuento = n - porcentaje;
+  }
+  else if (n > b){
+    porcentaje = y/100 * n;
+    descuento = n - porcentaje;
+  }
+  else {
+    descuento = n;
+  }
+  cout << descuento <<endl;
 }
 
 int exercise_5(char character) {
