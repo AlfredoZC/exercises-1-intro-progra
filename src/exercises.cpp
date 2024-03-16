@@ -203,7 +203,6 @@ void exercise_11(int number) {
     cout <<"Esto no es de Fibonacci"<<endl;
   }
 
-  return 0;
 }
 
 void exercise_12(string color1, int numb1,
